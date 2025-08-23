@@ -7,5 +7,5 @@ This Colab has four cells.
 3) Run Cell 3 to set credentials and create the client  
 4) Run Cell 4 to chat in the notebook. Type exit to quit
 
-**No memory**  
-This chatbot does not remember conversation history. It does not store or load any messages. After you stop the notebook or restart the runtime everything is forgotten. During a single run it only keeps a temporary in memory list to build the next prompt.
+**Memory behavior**  
+This chatbot remembers conversation history during the current run only. It keeps an in memory list to build each next prompt. It does not save messages anywhere and it forgets everything when you restart the runtime or close the notebook.
